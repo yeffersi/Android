@@ -21,6 +21,7 @@ namespace test
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+            var a = 1;
         }
     }
 }
